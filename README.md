@@ -105,3 +105,5 @@ You're all set and ready to go! Go back to the workshop page and follow the inst
 
 
 ## Troubleshooting
+
+1. When building your app to run on Minishift the build may fail on the first go, try running the following command again `oc start-build myfirst-node-red --from-dir=./`
