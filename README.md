@@ -1,4 +1,4 @@
-# Node-RED Workshop starter
+# Node-RED MiniShift Workshop starter
 
 Different ways to start a workshop, either locally, using MiniShift or using IBM Cloud.
 
@@ -49,7 +49,7 @@ Still using your terminal:
 Using your favorite IDE (we're not judging) open and edit the `package.json` file:
 1. update the Node.js engine to [current LTS](https://nodejs.org/en/download/) (`>=10.0.0`)
 2. update the NPM engine to be inline with node LTS (`>= 6.0.0`)
-3. update Node-RED dependency to current levels (`>= 0.20.0`)
+3. update Node-RED dependency to current levels (`>= 1.0`)
 4. add a scripts section
   ```
   "scripts": {
@@ -94,6 +94,12 @@ Once this is all done, go back to your terminal and run the following command `n
 - `oc expose service myfirst-node-red`
 
 All done! You can now access your Node-RED application running on Minishift using the response from `oc get route/myfirst-node-red`
+
+```
+NAME               HOST/PORT                                        PATH      SERVICES           PORT       TERMINATION   WILDCARD
+myfirst-node-red   myfirst-node-red-node-red.<aaa.bbb.ccc.ddd>.nip.io             myfirst-node-red   8080-tcp                 None
+```
+6. Open your browser to ```http://myfirst-node-red-node-red.<aaa.bbb.ccc.ddd>.nip.io```
 
 ## Run Node-RED locally
 
