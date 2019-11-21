@@ -1,3 +1,5 @@
+﻿*Read this in other languages: [日本語](README-ja.md).*
+
 # Node-RED MiniShift Workshop starter
 
 Different ways to start a workshop, either locally, using MiniShift or using IBM Cloud.
