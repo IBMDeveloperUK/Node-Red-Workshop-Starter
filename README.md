@@ -1,8 +1,8 @@
 ﻿*Read this in other languages: [日本語](README-ja.md).*
 
-# Node-RED MiniShift Workshop starter
+# Node-RED Workshop starter
 
-Different ways to start a workshop, either locally, using MiniShift or using IBM Cloud.
+Different ways to start a Node-RED instance, either locally, using MiniShift or using IBM Cloud.
 
 **Before you begin**
 
@@ -14,10 +14,14 @@ Before setting up your environment, and in order to create the services needed f
 ## Run Node-RED using IBM Cloud
 
 1. Log in to your [IBM Cloud account](http://cloud.ibm.com)
-2. Click on "Catalog" at the top-right corner
-3. Search and select "Node-RED Starter" 
-4. Give a unique name to your app and click "Create"
-5. Once your app is created you'll be able to access it through the [resource list](https://cloud.ibm.com/resources)
+2. Click on "Catalog" towards the top-right corner
+3. Select the "Software" tab
+4. Search and select "Node-RED App" 
+5. Following the tutorial steps at [developer.ibm.com](https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/) for creating and deploying your Node-RED application.
+
+** Note: ** make sure your application is assigned at least 256MB of runtime meory (the default will be 128MB, which is insufficient)
+
+Once your app is deployed you'll be able to access it through the [resource list](https://cloud.ibm.com/resources)
 
 ## Run Node-RED using MiniShift
 
